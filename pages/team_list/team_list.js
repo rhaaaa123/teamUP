@@ -1,4 +1,4 @@
-// pages/queue_more/queue_more.js
+// pages/team_list/team_list.js
 Page({
 
   /**

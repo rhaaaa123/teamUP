@@ -1,22 +1,23 @@
 {
   "pages": [
+    
     "pages/index/index",
     "pages/logs/logs",
+    "pages/login/login",
     "pages/class_list/class_list",
     "pages/class_create/class_create",
     "pages/class_join/class_join",
     "pages/request_list/request_list",
     "pages/request_more/request_more",
-    "pages/login/login",
     "pages/myindex/myindex",
-    "pages/queue_list/queue_list",
-    "pages/queue_create/queue_create",
-    "pages/queue_more/queue_more"
+    "pages/team_create/team_create",
+    "pages/team_list/team_list",
+    "pages/team_more/team_more"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "TeamUP",
     "navigationBarTextStyle": "black"
   },
   "tabBar":{
@@ -45,5 +46,6 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "debug": true
 }

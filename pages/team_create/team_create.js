@@ -1,4 +1,4 @@
-// pages/queue_list/queue_list.js
+// pages/team_create/team_create.js
 Page({
 
   /**

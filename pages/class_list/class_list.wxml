@@ -12,9 +12,9 @@
       <text class='user__id'>学号：{{user.id}}</text>
     </view>
     <view class='class_jc'>
-      <image class='class_act' src='image/class_list/join.png' url='page/class_join/class_join'></image>
-      <image class='class_act' src = 'image/class_list/create.png' url='page/class_create/class_create'></image>
-      <image class='class_act' src='image/class_list/main.png' url='page/myindex/myindex'></image>
+      <text class='class_act' >join</text>
+      <text class='class_act' >create</text>
+      <text class='class_act' >main</text>
     </view>
   </view>
   <view class = 'page_body'>
