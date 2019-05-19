@@ -1,12 +1,15 @@
 /* pages/class_list/class_list.wxss */
 .page_hd{
   padding: 30rpx;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
   display: flex;
   justify-content: space-between;
 
 >>>>>>> zhang_q
+=======
+>>>>>>> Stashed changes
 }
 .page_title_class{
   border: 2px solid #ccc;
@@ -16,11 +19,15 @@
   padding: 10rpx 20rpx;
   color: #333;
   font-size: 32rpx;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   display: flex;
 }
 .page_body{
   background-color: #fff;
+<<<<<<< Updated upstream
 =======
    
 }
@@ -115,4 +122,6 @@
   font-size: 28rpx;
   color: #444;
 >>>>>>> zhang_q
+=======
+>>>>>>> Stashed changes
 }

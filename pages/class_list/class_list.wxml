@@ -1,6 +1,9 @@
 <!--pages/class_list/class_list.wxml-->
 <view class='page'>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   <view class='page__hd'>
     <view class='user__circle'>
       <image class = 'user__img' src='image/class_list/u2.png'></image>
@@ -20,6 +23,7 @@
   </view>
   <view class = 'page_body'>
     
+<<<<<<< Updated upstream
 =======
   <view class='page_hd'>
     
@@ -71,5 +75,7 @@
       </view>
     </view>
 >>>>>>> zhang_q
+=======
+>>>>>>> Stashed changes
   </view>
 </view>

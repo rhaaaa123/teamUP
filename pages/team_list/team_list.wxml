@@ -1,5 +1,4 @@
 <!--pages/team_list/team_list.wxml-->
-<<<<<<< HEAD
 <view class="head">
   <view class="class_name">
     <text>VC693：面向对象程序设计</text>
@@ -115,8 +114,5 @@
       <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
     </view>
   </view>
-  
+
 </view>
-=======
-<text>pages/team_list/team_list.wxml</text>
->>>>>>> zhang_q
