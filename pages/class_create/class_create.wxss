@@ -17,8 +17,8 @@
 }
 .page_m{
   background-color: white;
-  margin-top:400rpx;
-  height: 300rpx;
+  margin-top:300rpx;
+  height: 500rpx;
 }
 .in_su{
   display: flex;

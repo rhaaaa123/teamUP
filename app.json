@@ -1,9 +1,9 @@
 {
   "pages": [
-    
+    "pages/login/login",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/login/login",
+    
     "pages/class_list/class_list",
     "pages/class_create/class_create",
     "pages/class_join/class_join",
@@ -39,7 +39,7 @@
         "text": "请求"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/login/login",
         "iconPath": "image/main_0.png",
         "selectedIconPath": "image/main_1.png",
         "text": "我的"
