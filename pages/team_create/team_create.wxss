@@ -1,1 +1,69 @@
 /* pages/team_create/team_create.wxss */
+page{
+  background-color: #FFFFFF;
+}
+
+.head{
+  border-bottom: solid 1rpx #f19d38;
+}
+
+.class_name{
+  font-size: 56rpx;
+  font-weight: bold;
+  width:750rpx;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+}
+
+.intro{
+  margin-left: 30rpx;
+  margin-top: 14rpx;
+  height: 60rpx;
+  width: 690rpx;
+}
+
+.intro  navigator{
+  text-decoration: underline;
+  color: #000080;
+  font-size: 34rpx;   
+  height: 60rpx;
+  line-height: 60rpx;
+  float: left;
+}
+
+.intro text{
+  font-size: 34rpx;   
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #696969;
+  float: left;
+}
+
+.intro image{
+  width: 60rpx;
+  height: 60rpx;
+  float: left;
+}
+
+.sup{
+  margin-left: 12rpx;
+}
+
+.count{
+  margin-left: 110rpx;
+}
+
+.out{
+  margin-left: 110rpx;
+}
+
+.option{
+  width: 375rpx;
+  float: left;
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.choose{
+  border-bottom: solid 5rpx #f19d38;
+}
