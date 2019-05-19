@@ -4,25 +4,10 @@ page {
 }
 .box{
 	width: 750rpx;
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 	height: 550rpx; 
 	background-color: #FFFFFF;
 	position: absolute;
 	top: 280rpx;
-=======
-	height: 700rpx; 
-	background-color: #FFFFFF;
-	position: absolute;
-	top: 240rpx;
-	left: 0px;
->>>>>>> zhang_q
-=======
-	height: 550rpx; 
-	background-color: #FFFFFF;
-	position: absolute;
-	top: 280rpx;
->>>>>>> Stashed changes
 }
 
 .class_name{
@@ -30,47 +15,21 @@ page {
   font-weight: bold;
   width:750rpx;
   text-align: center;
-<<<<<<< Updated upstream
-<<<<<<< HEAD
   margin-top: 40rpx;
-=======
-  margin-top: 30rpx;
->>>>>>> zhang_q
-=======
-  margin-top: 40rpx;
->>>>>>> Stashed changes
 }
 
 .welcome{
   margin-left: 30rpx;
   margin-top: 10rpx;
-<<<<<<< Updated upstream
-<<<<<<< HEAD
   margin-bottom: 30rpx;
-=======
->>>>>>> zhang_q
-=======
-  margin-bottom: 30rpx;
->>>>>>> Stashed changes
 }
 
 .input_info{
   width: 600rpx;
   height: 80rpx;
   margin-top: 20rpx;
-<<<<<<< Updated upstream
-<<<<<<< HEAD
   margin-left: 80rpx;
   line-height: 80rpx;
-=======
-  margin-left: 75rpx;
-  line-height: 80rpx;
-  background-color: green;
->>>>>>> zhang_q
-=======
-  margin-left: 80rpx;
-  line-height: 80rpx;
->>>>>>> Stashed changes
 }
 
 .input_info text{ 
@@ -85,10 +44,6 @@ page {
   float: left;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
 .confirm{
   margin-left: 500rpx;
   margin-top: 30rpx;
@@ -106,12 +61,5 @@ page {
   width: 80rpx;
   height: 80rpx;
 }
-
-
-<<<<<<< Updated upstream
-=======
->>>>>>> zhang_q
-=======
->>>>>>> Stashed changes
 
 

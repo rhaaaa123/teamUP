@@ -5,15 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
     user: {name:'张倩', id:'2016202127', fname:'张'}
-=======
-    user: {name:'啊啊啊', id:'2016aaaaaa', fname:'啊'}
->>>>>>> zhang_q
-=======
-    user: {name:'张倩', id:'2016202127', fname:'张'}
->>>>>>> Stashed changes
   },
 
   /**

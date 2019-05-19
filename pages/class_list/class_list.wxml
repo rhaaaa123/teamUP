@@ -1,32 +1,7 @@
 <!--pages/class_list/class_list.wxml-->
 <view class='page'>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-  <view class='page__hd'>
-    <view class='user__circle'>
-      <image class = 'user__img' src='image/class_list/u2.png'></image>
-      <view class = 'user__text'>
-        <text>{{user.fname}}</text>
-      </view>
-    </view>
-    <view class='user__mes'>
-      <text class='user__name'>{{user.name}}</text>
-      <text class='user__id'>学号：{{user.id}}</text>
-    </view>
-    <view class='class_jc'>
-      <text class='class_act' >join</text>
-      <text class='class_act' >create</text>
-      <text class='class_act' >main</text>
-    </view>
-  </view>
-  <view class = 'page_body'>
-    
-<<<<<<< Updated upstream
-=======
   <view class='page_hd'>
-    
+
     <view class='user_msg'>
       <view class='user_circle'>
         <view class = 'user_text'>
@@ -74,8 +49,5 @@
         <button class='cbutton'>查看详情</button>
       </view>
     </view>
->>>>>>> zhang_q
-=======
->>>>>>> Stashed changes
   </view>
 </view>

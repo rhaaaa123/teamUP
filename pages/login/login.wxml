@@ -20,12 +20,6 @@
         <button class="confirm_button" form-type="submit">GO</button>
         <view class="go_icon">
           <image src="../../image/login/go.jpg"></image>
-        <button class="confirm_button" form-type="submit"></button>
-        <view class="go_icon">
-          <image src="../../images/go.jpg"></image>
-        <button class="confirm_button" form-type="submit">GO</button>
-        <view class="go_icon">
-          <image src="../../image/login/go.jpg"></image>
         </view>
       </view>
     </form>
