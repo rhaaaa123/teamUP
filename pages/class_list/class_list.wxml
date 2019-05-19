@@ -1,23 +1,53 @@
 <!--pages/class_list/class_list.wxml-->
 <view class='page'>
-  <view class='page__hd'>
-    <view class='user__circle'>
-      <image class = 'user__img' src='image/class_list/u2.png'></image>
-      <view class = 'user__text'>
-        <text>{{user.fname}}</text>
+  <view class='page_hd'>
+    
+    <view class='user_msg'>
+      <view class='user_circle'>
+        <view class = 'user_text'>
+          <text>{{user.fname}}</text>
+        </view>
       </view>
-    </view>
-    <view class='user__mes'>
-      <text class='user__name'>{{user.name}}</text>
-      <text class='user__id'>学号：{{user.id}}</text>
+      
+      <text class='user_name'>{{user.name}}</text>
+      <text class='user_id'>学号：{{user.id}}</text>
     </view>
     <view class='class_jc'>
-      <text class='class_act' >join</text>
-      <text class='class_act' >create</text>
-      <text class='class_act' >main</text>
+      <navigator url='../class_join/class_join'>
+        <button class='class_act'>加</button>
+      </navigator>
+      <navigator url='../class_create/class_create'>
+        <button class='class_act' >创</button>
+      </navigator>
+      <navigator url='../login/login'>
+        <button class='class_act'>我</button>
+      </navigator>
     </view>
   </view>
   <view class = 'page_body'>
-    
+    <view class = 'class_block'>
+      <view class='class_name'>班级名称</view>
+      <view class='class_msg'>班级信息</view>
+      <view class='class_button'>
+        <button class='cbutton'>加入班级</button>
+        <button class='cbutton'>查看详情</button>
+      </view>
+    </view>
+    <view class = 'class_block'>
+      <view class='class_name'>班级名称</view>
+      <view class='class_msg'>班级信息</view>
+      <view class='class_button'>
+        <button class='cbutton'>加入班级</button>
+        <button class='cbutton'>查看详情</button>
+      </view>
+    </view>
+    <view class = 'class_block'>
+      <view class='class_name'>班级名称</view>
+      <view class='class_msg'>班级信息</view>
+      <view class='class_button'>
+        <button class='cbutton'>加入班级</button>
+        <button class='cbutton'>查看详情</button>
+      </view>
+    </view>
   </view>
 </view>
