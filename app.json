@@ -1,31 +1,17 @@
 {
   "pages": [
-<<<<<<< HEAD
     "pages/team_list/team_list",
     "pages/login/login",
     "pages/class_list/class_list",
     "pages/myindex_set/myindex_set",
     "pages/myindex/myindex",
     "pages/index/index",
-    "pages/logs/logs",
-=======
-    "pages/login/login",
-    "pages/index/index",
-    "pages/logs/logs",
-    
-    "pages/class_list/class_list",
->>>>>>> zhang_q
+    "pages/logs/logs",  
     "pages/class_create/class_create",
     "pages/class_join/class_join",
     "pages/request_list/request_list",
     "pages/request_more/request_more",
-<<<<<<< HEAD
     "pages/team_create/team_create",
-=======
-    "pages/myindex/myindex",
-    "pages/team_create/team_create",
-    "pages/team_list/team_list",
->>>>>>> zhang_q
     "pages/team_more/team_more"
   ],
   "window": {
@@ -53,11 +39,8 @@
         "text": "请求"
       },
       {
-<<<<<<< HEAD
         "pagePath": "pages/index/index",
-=======
         "pagePath": "pages/login/login",
->>>>>>> zhang_q
         "iconPath": "image/main_0.png",
         "selectedIconPath": "image/main_1.png",
         "text": "我的"
