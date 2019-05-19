@@ -1,1 +1,17 @@
 /* pages/class_list/class_list.wxss */
+.page_hd{
+  padding: 30rpx;
+}
+.page_title_class{
+  border: 2px solid #ccc;
+
+}
+.page_title_cn{
+  padding: 10rpx 20rpx;
+  color: #333;
+  font-size: 32rpx;
+  display: flex;
+}
+.page_body{
+  background-color: #fff;
+}

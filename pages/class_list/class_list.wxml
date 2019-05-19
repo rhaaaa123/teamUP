@@ -1,2 +1,23 @@
 <!--pages/class_list/class_list.wxml-->
-<text>pages/class_list/class_list.wxml</text>
+<view class='page'>
+  <view class='page__hd'>
+    <view class='user__circle'>
+      <image class = 'user__img' src='image/class_list/u2.png'></image>
+      <view class = 'user__text'>
+        <text>{{user.fname}}</text>
+      </view>
+    </view>
+    <view class='user__mes'>
+      <text class='user__name'>{{user.name}}</text>
+      <text class='user__id'>学号：{{user.id}}</text>
+    </view>
+    <view class='class_jc'>
+      <image class='class_act' src='image/class_list/join.png' url='page/class_join/class_join'></image>
+      <image class='class_act' src = 'image/class_list/create.png' url='page/class_create/class_create'></image>
+      <image class='class_act' src='image/class_list/main.png' url='page/myindex/myindex'></image>
+    </view>
+  </view>
+  <view class = 'page_body'>
+    
+  </view>
+</view>
