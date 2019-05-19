@@ -1,15 +1,11 @@
-// pages/class_list/class_list.js
+// pages/team_create/team_create.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
-    user: {name:'张倩', id:'2016202127', fname:'张'}
-=======
-    user: {name:'啊啊啊', id:'2016aaaaaa', fname:'啊'}
->>>>>>> zhang_q
+
   },
 
   /**

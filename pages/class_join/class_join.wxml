@@ -1,6 +1,15 @@
 <!--pages/class_join/class_join.wxml-->
+<<<<<<< HEAD
 <view class= 'page__m'>
   <text class='head'>请输入班级邀请码:</text>
   <input placeholder="请输入4位邀请码" auto-focus/>
   <button formType="submit">Submit</button>
+=======
+<view class= 'page_m'>
+  <text class='head'>请输入班级邀请码:</text>
+  <view class ='in_su'>
+    <input placeholder="请输入4位邀请码" auto-focus class='join_input'/>
+    <button formType="submit" class='join_button'>join</button>
+  </view>
+>>>>>>> zhang_q
 </view>

@@ -1,2 +1,11 @@
 <!--pages/class_create/class_create.wxml-->
-<text>pages/class_create/class_create.wxml</text>
+<view class= 'page_m'>
+  <view class='head'>创建班级</view>
+  <view class ='in_su'>
+    <input placeholder="班级名称" auto-focus class='join_input'/>
+    <input placeholder="课程教师" auto-focus class='join_input'/>
+    <input placeholder="组队人数上限" auto-focus class='join_input'/>
+  </view>
+  <button formType="submit" class='join_button'>create</button>
+</view>
+

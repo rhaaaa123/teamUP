@@ -1,1 +1,23 @@
 /* pages/class_join/class_join.wxss */
+.join_input{
+  background-color: white;
+  border:1rpx #aaa solid;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+}
+.head{
+  margin: 30rpx;
+  font-size: 40rpx;
+  padding: 30rpx;
+}
+.page_m{
+  background-color: white;
+  margin-top:400rpx;
+  height: 300rpx;
+}
+.in_su{
+  display: flex;
+}
+.join_button{
+  font-size: 28rpx;
+}
