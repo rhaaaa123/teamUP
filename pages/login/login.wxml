@@ -17,9 +17,9 @@
         <view class="clear"></view>
       </view>
       <view class="confirm">
-        <button class="confirm_button" form-type="submit"></button>
+        <button class="confirm_button" form-type="submit">GO</button>
         <view class="go_icon">
-          <image src="../../images/go.jpg"></image>
+          <image src="../../image/login/go.jpg"></image>
         </view>
       </view>
     </form>

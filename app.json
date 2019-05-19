@@ -1,16 +1,17 @@
 {
   "pages": [
+    "pages/team_list/team_list",
     "pages/login/login",
+    "pages/class_list/class_list",
+    "pages/myindex_set/myindex_set",
+    "pages/myindex/myindex",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/class_list/class_list",
     "pages/class_create/class_create",
     "pages/class_join/class_join",
     "pages/request_list/request_list",
     "pages/request_more/request_more",
-    "pages/myindex/myindex",
     "pages/team_create/team_create",
-    "pages/team_list/team_list",
     "pages/team_more/team_more"
   ],
   "window": {
@@ -19,5 +20,32 @@
     "navigationBarTitleText": "TeamUP",
     "navigationBarTextStyle": "black"
   },
+  "tabBar":{
+    "color": "#dddddd",
+    "selectedColor": "#f19d38",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/class_list/class_list",
+        "iconPath": "image/class_0.png",
+        "selectedIconPath": "image/class_1.png",
+        "text": "班级"
+      },
+      {
+        "pagePath": "pages/request_list/request_list",
+        "iconPath": "image/request_0.png",
+        "selectedIconPath": "image/request_1.png",
+        "text": "请求"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/main_0.png",
+        "selectedIconPath": "image/main_1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
   "debug": true
 }

@@ -1,2 +1,118 @@
 <!--pages/team_list/team_list.wxml-->
-<text>pages/team_list/team_list.wxml</text>
+<view class="head">
+  <view class="class_name">
+    <text>VC693：面向对象程序设计</text>
+  </view>
+  <view class="intro">
+    <image src="../../image/team_list/team.jpg"/>
+    <text class="sup">5人</text>
+    <text class="count">共计5队</text>
+    <navigator class="out">导出队伍信息</navigator>
+    <view class="clear"></view>
+  </view>
+  <view class="option choose">
+    <text class="join">加入队伍</text>
+  </view>
+  <view class="option">
+    <text class="create">创建队伍</text>
+  </view>
+  <view class="clear"></view>
+</view>
+<view class="team_list">
+
+  <view class="team">
+    <view class="id">
+      <text>ID: 001</text>
+    </view> 
+    <view class="join">
+      <image src="../../image/team_list/join.jpg"/>
+    </view>   
+    <view class="number">
+      <text>3/5</text>
+    </view>
+    <view class="clear"></view>
+    <view class="info">
+      <text class="member">成员：张xx，李xx，王xx</text>
+    </view>
+    <view class="info last_intro">
+      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
+    </view>
+  </view>
+
+  <view class="team">
+    <view class="id">
+      <text>ID: 001</text>
+    </view> 
+    <view class="join">
+      <image src="../../image/team_list/join.jpg"/>
+    </view>   
+    <view class="number">
+      <text>3/5</text>
+    </view>
+    <view class="clear"></view>
+    <view class="info">
+      <text class="member">成员：张xx，李xx，王xx</text>
+    </view>
+    <view class="info last_intro">
+      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
+    </view>
+  </view>
+
+  <view class="team">
+    <view class="id">
+      <text>ID: 001</text>
+    </view> 
+    <view class="join">
+      <image src="../../image/team_list/join.jpg"/>
+    </view>   
+    <view class="number">
+      <text>3/5</text>
+    </view>
+    <view class="clear"></view>
+    <view class="info">
+      <text class="member">成员：张xx，李xx，王xx</text>
+    </view>
+    <view class="info last_intro">
+      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
+    </view>
+  </view>
+
+  <view class="team">
+    <view class="id">
+      <text>ID: 001</text>
+    </view> 
+    <view class="join">
+      <image src="../../image/team_list/join.jpg"/>
+    </view>   
+    <view class="number">
+      <text>3/5</text>
+    </view>
+    <view class="clear"></view>
+    <view class="info">
+      <text class="member">成员：张xx，李xx，王xx</text>
+    </view>
+    <view class="info last_intro">
+      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
+    </view>
+  </view>
+
+  <view class="team">
+    <view class="id">
+      <text>ID: 001</text>
+    </view> 
+    <view class="join">
+      <image src="../../image/team_list/join.jpg"/>
+    </view>   
+    <view class="number">
+      <text>3/5</text>
+    </view>
+    <view class="clear"></view>
+    <view class="info">
+      <text class="member">成员：张xx，李xx，王xx</text>
+    </view>
+    <view class="info last_intro">
+      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
+    </view>
+  </view>
+  
+</view>
