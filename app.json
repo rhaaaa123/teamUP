@@ -1,18 +1,18 @@
 {
   "pages": [
-    "pages/team_create/team_create",   
     "pages/team_list/team_list",
-    "pages/login/login",
-    "pages/myindex/myindex",
+    "pages/team_more/team_more", 
+    "pages/team_create/team_create",       
     "pages/myindex_set/myindex_set",
+    "pages/myindex/myindex",
+    "pages/login/login",  
     "pages/class_list/class_list",
     "pages/class_join/class_join",
     "pages/index/index",
     "pages/logs/logs",  
     "pages/class_create/class_create",
     "pages/request_list/request_list",
-    "pages/request_more/request_more",
-    "pages/team_more/team_more"
+    "pages/request_more/request_more"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -39,7 +39,7 @@
         "text": "请求"
       },
       {
-        "pagePath": "pages/login/login",
+        "pagePath": "pages/myindex/myindex",
         "iconPath": "image/main_0.png",
         "selectedIconPath": "image/main_1.png",
         "text": "我的"

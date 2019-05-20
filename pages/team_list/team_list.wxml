@@ -11,108 +11,34 @@
     <view class="clear"></view>
   </view>
   <view class="option choose">
-    <text class="join">加入队伍</text>
+    <navigator class="join" url="../team_list/team_list">加入队伍</navigator>
   </view>
   <view class="option">
-    <text class="create">创建队伍</text>
+    <navigator class="create" url="../team_create/team_create">创建队伍</navigator>
   </view>
   <view class="clear"></view>
 </view>
 <view class="team_list">
 
-  <view class="team">
-    <view class="id">
-      <text>ID: 001</text>
-    </view> 
-    <view class="join">
-      <image src="../../image/team_list/join.jpg"/>
-    </view>   
-    <view class="number">
-      <text>3/5</text>
+  <navigator url="../team_more/team_more" wx:for="{{teams}}" wx:for-item="team">
+    <view class="team">
+      <view class="id">
+        <text>ID：{{team.id}}</text>
+      </view> 
+      <view class="join">
+        <image src="../../image/team_list/join.jpg"/>
+      </view>   
+      <view class="number">
+        <text>{{team.count}}/{{team.sup}}</text>
+      </view>
+      <view class="clear"></view>
+      <view class="info">
+        <text class="member">成员：{{team.member}}</text>
+      </view>
+      <view class="info last_intro">
+        <text class="brief_intro">简介：{{team.info}}</text>
+      </view>
     </view>
-    <view class="clear"></view>
-    <view class="info">
-      <text class="member">成员：张xx，李xx，王xx</text>
-    </view>
-    <view class="info last_intro">
-      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
-    </view>
-  </view>
-
-  <view class="team">
-    <view class="id">
-      <text>ID: 001</text>
-    </view> 
-    <view class="join">
-      <image src="../../image/team_list/join.jpg"/>
-    </view>   
-    <view class="number">
-      <text>3/5</text>
-    </view>
-    <view class="clear"></view>
-    <view class="info">
-      <text class="member">成员：张xx，李xx，王xx</text>
-    </view>
-    <view class="info last_intro">
-      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
-    </view>
-  </view>
-
-  <view class="team">
-    <view class="id">
-      <text>ID: 001</text>
-    </view> 
-    <view class="join">
-      <image src="../../image/team_list/join.jpg"/>
-    </view>   
-    <view class="number">
-      <text>3/5</text>
-    </view>
-    <view class="clear"></view>
-    <view class="info">
-      <text class="member">成员：张xx，李xx，王xx</text>
-    </view>
-    <view class="info last_intro">
-      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
-    </view>
-  </view>
-
-  <view class="team">
-    <view class="id">
-      <text>ID: 001</text>
-    </view> 
-    <view class="join">
-      <image src="../../image/team_list/join.jpg"/>
-    </view>   
-    <view class="number">
-      <text>3/5</text>
-    </view>
-    <view class="clear"></view>
-    <view class="info">
-      <text class="member">成员：张xx，李xx，王xx</text>
-    </view>
-    <view class="info last_intro">
-      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
-    </view>
-  </view>
-
-  <view class="team">
-    <view class="id">
-      <text>ID: 001</text>
-    </view> 
-    <view class="join">
-      <image src="../../image/team_list/join.jpg"/>
-    </view>   
-    <view class="number">
-      <text>3/5</text>
-    </view>
-    <view class="clear"></view>
-    <view class="info">
-      <text class="member">成员：张xx，李xx，王xx</text>
-    </view>
-    <view class="info last_intro">
-      <text class="brief_intro">简介：这里是简介啊简介啊简介啊简介啊简介啊简介啊简介啊</text>
-    </view>
-  </view>
-
+  </navigator>
+  
 </view>

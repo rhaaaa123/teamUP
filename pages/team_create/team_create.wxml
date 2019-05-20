@@ -11,11 +11,43 @@
     <view class="clear"></view>
   </view>
   <view class="option">
-    <text class="join">加入队伍</text>
+    <navigator class="join" url="../team_list/team_list">加入队伍</navigator>
   </view>
   <view class="option choose">
-    <text class="create">创建队伍</text>
+    <navigator class="create" url="../team_create/team_create">创建队伍</navigator>
   </view>
   <view class="clear"></view>
 </view>
-<view class="create_box"></view>
+<view class="create_box">
+  <form>
+    <view class="id">
+      <text>ID:{{team.id}}</text>
+    </view>
+    <view class="mem_sup">
+      <text>人数：{{team.sup}}</text>
+    </view>
+    <view class="leader">
+      <text>队长：</text>
+      <input class="leader_name" placeholder="{{team.leader}}"/>
+    </view>
+    <view class="clear"></view>
+    <view class="more">
+      <text>更多信息：</text>
+      <textarea class="info" placeholder="{{team.info}}"/>
+    </view>
+    <view class="invite">
+      <text class="title">邀请成员</text>
+      <view class="single_list">
+        <view class="single" wx:for="{{team.single_list}}" wx:for-item="single_name">
+          <view>
+            <image src="../../image/head_images/1.jpg"/>
+          </view>
+          <view class="mask"></view>
+          <text>{{single_name}}</text>
+        </view>
+      </view>
+      <view class="clear"></view>
+      <button class="commit">发布</button>
+    </view>
+  </form>
+</view>

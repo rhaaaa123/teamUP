@@ -13,13 +13,12 @@ page {
 .class_name{
   font-size: 56rpx;
   font-weight: bold;
-  width:750rpx;
-  text-align: center;
+  margin-left: 50rpx;
   margin-top: 40rpx;
 }
 
 .welcome{
-  margin-left: 30rpx;
+  margin-left: 50rpx;
   margin-top: 10rpx;
   margin-bottom: 30rpx;
 }
@@ -28,7 +27,7 @@ page {
   width: 600rpx;
   height: 80rpx;
   margin-top: 20rpx;
-  margin-left: 80rpx;
+  margin-left: 100rpx;
   line-height: 80rpx;
 }
 
@@ -54,6 +53,7 @@ page {
   height: 80rpx;
   background-color: #FFFFFF;
   float: left;
+  line-height: 80rpx;
   text-align: center;
 }
 
