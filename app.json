@@ -1,12 +1,17 @@
 {
   "pages": [
+    "pages/class_create/class_create",
+    
+    "pages/class_join/class_join",
+    "pages/class_list/class_list",
+    
     "pages/login/login",
     "pages/index/index",
     "pages/logs/logs",
     
-    "pages/class_list/class_list",
-    "pages/class_create/class_create",
-    "pages/class_join/class_join",
+    
+    
+    
     "pages/request_list/request_list",
     "pages/request_more/request_more",
     "pages/myindex/myindex",

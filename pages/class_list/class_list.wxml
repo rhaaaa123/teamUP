@@ -8,20 +8,13 @@
           <text>{{user.fname}}</text>
         </view>
       </view>
-      
-      <text class='user_name'>{{user.name}}</text>
-      <text class='user_id'>学号：{{user.id}}</text>
+      <view class = 'c-text'>
+        <view class='user_name'>{{user.name}}</view>
+        <view class='user_id'>学号：{{user.id}}</view>
+      </view>
     </view>
     <view class='class_jc'>
-      <navigator url='../class_join/class_join'>
-        <button class='class_act'>加</button>
-      </navigator>
-      <navigator url='../class_create/class_create'>
-        <button class='class_act' >创</button>
-      </navigator>
-      <navigator url='../login/login'>
-        <button class='class_act'>我</button>
-      </navigator>
+      <image src='../../image/class_list/list.png'></image>
     </view>
   </view>
   <view class = 'page_body'>
@@ -29,24 +22,24 @@
       <view class='class_name'>班级名称</view>
       <view class='class_msg'>班级信息</view>
       <view class='class_button'>
-        <button class='cbutton'>加入班级</button>
-        <button class='cbutton'>查看详情</button>
+        <image src='../../image/class_list/join.png' class='join_button'></image>
+        <image src='../../image/class_list/more.png' class='more_button'></image>
       </view>
     </view>
     <view class = 'class_block'>
       <view class='class_name'>班级名称</view>
       <view class='class_msg'>班级信息</view>
       <view class='class_button'>
-        <button class='cbutton'>加入班级</button>
-        <button class='cbutton'>查看详情</button>
+        <image src='../../image/class_list/join.png' class='join_button'></image>
+        <image src='../../image/class_list/more.png' class='more_button'></image>
       </view>
     </view>
     <view class = 'class_block'>
       <view class='class_name'>班级名称</view>
       <view class='class_msg'>班级信息</view>
       <view class='class_button'>
-        <button class='cbutton'>加入班级</button>
-        <button class='cbutton'>查看详情</button>
+        <image src='../../image/class_list/join.png' class='join_button'></image>
+        <image src='../../image/class_list/more.png' class='more_button'></image>
       </view>
     </view>
   </view>
