@@ -1,2 +1,15 @@
 <!--pages/myindex/myindex.wxml-->
-<text>pages/myindex/myindex.wxml</text>
+<view class="center">
+  <view class="head_image">
+    <image src="../../image/my/photo.png"/>
+  </view>
+  <view class="info">
+    <text>姓名：</text><text class="name">张一一</text>
+  </view>
+  <view class="info">
+    <text>学号：</text><text class="id">2016202139</text>
+  </view>
+  <view class="set">
+    <image src="../../image/my/set.jpg"/>
+  </view>
+</view>
