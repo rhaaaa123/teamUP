@@ -30,7 +30,7 @@
       <view class='class_name'>{{item.name}}</view>
       <view class='class_msg'>教师：{{item.teacher}}  班级人数：{{item.student_numbers}}  队伍数量：{{item.team_numbers}}</view>
       <view class='class_button'>
-        <image src='../../image/class_list/join.png' class='join_button' url='../team_list/team_list'></image>
+        
         <navigator url='../team_list/team_list'><image src='../../image/class_list/more.png' class='more_button'></image></navigator>
       </view>
     </view>

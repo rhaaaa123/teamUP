@@ -1,7 +1,7 @@
 /* pages/class_join/class_join.wxss */
 .join_input{
   background-color: white;
-  border:1rpx #aaa solid;
+  border:1rpx #f19d38 solid;
 
   margin-top: 10rpx;
   margin-left: 5rpx;
@@ -29,6 +29,7 @@
   width: 650rpx;
   margin-left: 50rpx;
   border-radius: 12rpx;
+  border-top:#f19d38 double 40rpx;
 }
 .in_su{
   margin-top: 100rpx;
