@@ -2,6 +2,7 @@
 .join_input{
   background-color: white;
   border:1rpx #aaa solid;
+
   margin-top: 10rpx;
   margin-left: 5rpx;
   margin-right: 2.5rpx;
@@ -44,4 +45,5 @@
   margin-left: -1rpx;
   width:68rpx;
   height:60rpx;
+
 }

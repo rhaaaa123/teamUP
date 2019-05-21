@@ -19,7 +19,6 @@
     "pages/team_create/team_create",
     "pages/team_list/team_list",
     "pages/team_more/team_more"
-
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+
     user: {name:'啊啊啊', id:'2016aaaaaa', fname:'啊'},
     class_data: [{ name: "算法", teacher: "刘青", student_numbers: 56, team_numbers: 5 }, { name: "软件工程", teacher: "刘青", student_numbers: 72,team_numbers: 9 }],
     actionSheetHidden: true
@@ -30,6 +31,7 @@ Page({
     this.setData({
       actionSheetHidden: !this.data.actionSheetHidden
     })
+
   },
   /**
    * 生命周期函数--监听页面加载

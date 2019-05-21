@@ -1,41 +1,39 @@
 /* pages/login/login.wxss */
 
-.background {
+page {
 	background-color: #f19d38;
- 	width:750rpx;
- 	height:1206rpx;
- 	position: relative;
 }
-
 .box{
 	width: 750rpx;
-	height: 700rpx; 
+	height: 550rpx; 
 	background-color: #FFFFFF;
 	position: absolute;
-	top: 240rpx;
-	left: 0px;
+	top: 280rpx;
 }
 
 .class_name{
   font-size: 56rpx;
   font-weight: bold;
-  width:750rpx;
-  text-align: center;
-  margin-top: 30rpx;
+
+  margin-left: 50rpx;
+  margin-top: 40rpx;
 }
 
 .welcome{
-  margin-left: 30rpx;
+  margin-left: 50rpx;
   margin-top: 10rpx;
+  margin-bottom: 30rpx;
+
 }
 
 .input_info{
   width: 600rpx;
   height: 80rpx;
   margin-top: 20rpx;
-  margin-left: 75rpx;
+
+  margin-left: 100rpx;
   line-height: 80rpx;
-  background-color: green;
+
 }
 
 .input_info text{ 
@@ -48,6 +46,26 @@
   border: solid 1px #D0D0D0;
   margin-left: 20px;
   float: left;
+}
+
+
+.confirm{
+  margin-left: 500rpx;
+  margin-top: 30rpx;
+}
+
+.confirm button{
+  width:100rpx;
+  height: 80rpx;
+  background-color: #FFFFFF;
+  float: left;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+.confirm image{
+  width: 80rpx;
+  height: 80rpx;
 }
 
 

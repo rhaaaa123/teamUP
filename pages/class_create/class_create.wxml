@@ -15,5 +15,6 @@
     <text class='basic_text_3'>课程简介/要求：</text><input placeholder="XX" auto-focus class='join_input_3'/>
   </view>
   <image src='../../image/finish.png' class='create_button'>create</image>
+
 </view>
 

@@ -6,6 +6,7 @@
   margin-left: 10rpx;
   margin-right: 10rpx;
   margin-top: 10rpx;
+
   margin-bottom: 10rpx;
   width:240rpx;
   border-radius: 5rpx;
@@ -20,10 +21,12 @@
   margin:20rpx;
   padding-left: 20rpx;
   padding-right: 20rpx;
+
 }
 .head{
   margin: 20rpx;
   font-size: 40rpx;
+
   padding-top: 50rpx;
   padding-left: 10rpx;
   font-weight: bold;
@@ -96,4 +99,5 @@
   width:620rpx;
   height: 240rpx;
   border-radius: 5rpx;
+
 }
