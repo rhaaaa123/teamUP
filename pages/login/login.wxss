@@ -1,4 +1,5 @@
 /* pages/login/login.wxss */
+
 page {
 	background-color: #f19d38;
 }
@@ -13,6 +14,7 @@ page {
 .class_name{
   font-size: 56rpx;
   font-weight: bold;
+
   margin-left: 50rpx;
   margin-top: 40rpx;
 }
@@ -21,14 +23,17 @@ page {
   margin-left: 50rpx;
   margin-top: 10rpx;
   margin-bottom: 30rpx;
+
 }
 
 .input_info{
   width: 600rpx;
   height: 80rpx;
   margin-top: 20rpx;
+
   margin-left: 100rpx;
   line-height: 80rpx;
+
 }
 
 .input_info text{ 
@@ -42,6 +47,7 @@ page {
   margin-left: 20px;
   float: left;
 }
+
 
 .confirm{
   margin-left: 500rpx;
@@ -61,5 +67,6 @@ page {
   width: 80rpx;
   height: 80rpx;
 }
+
 
 

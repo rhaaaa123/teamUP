@@ -1,4 +1,4 @@
-/* pages/request_more/request_more.wxss */
+/* pages/request_join_more/request_join_more.wxss */
 .head{
   width:600rpx;
   border: double 20rpx #f19d38;
@@ -28,7 +28,7 @@
 }
 .c_button{
   color:#f19d38;
-  margin-left:24rpx;
+  margin-left:270rpx;
   width: 200rpx;
   font-size: 34rpx;
   font-weight: bold;

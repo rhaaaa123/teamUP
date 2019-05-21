@@ -1,11 +1,20 @@
 <!--pages/class_create/class_create.wxml-->
 <view class= 'page_m'>
   <view class='head'>创建班级</view>
+  <view class='intro'>教师输入班级基本信息进行班级创建</view>
   <view class ='in_su'>
-    <input placeholder="班级名称" auto-focus class='join_input'/>
-    <input placeholder="课程教师" auto-focus class='join_input'/>
-    <input placeholder="组队人数上限" auto-focus class='join_input'/>
+    
+    <view class='basic'>
+      <text class='basic_text'>ID：002</text>
+      <text class='basic_text'>班级名称：</text><input placeholder="XXX" auto-focus class='join_input'/>
+    </view>
+    <view class='basic_2'>
+      <text class='basic_text_2'>课程教师：</text><input placeholder="XXX" auto-focus class='join_input_2'/>
+      <text class='basic_text_2'>班级人数：</text><input placeholder="XX" auto-focus class='join_input_2'/>
+    </view>
+    <text class='basic_text_3'>课程简介/要求：</text><input placeholder="XX" auto-focus class='join_input_3'/>
   </view>
-  <button formType="submit" class='join_button'>create</button>
+  <image src='../../image/finish.png' class='create_button'>create</image>
+
 </view>
 

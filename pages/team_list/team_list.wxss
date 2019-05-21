@@ -1,3 +1,4 @@
+
 /* pages/team_list/team_list.wxss */
 page{
   background-color: #FFFFFF;
@@ -117,3 +118,4 @@ page{
 .last_intro{
   margin-bottom: 10rpx;
 }
+

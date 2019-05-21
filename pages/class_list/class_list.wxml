@@ -8,46 +8,33 @@
           <text>{{user.fname}}</text>
         </view>
       </view>
-      
-      <text class='user_name'>{{user.name}}</text>
-      <text class='user_id'>学号：{{user.id}}</text>
+
+      <view class = 'c-text'>
+        <view class='user_name'>{{user.name}}</view>
+        <view class='user_id'>学号：{{user.id}}</view>
+      </view>
     </view>
     <view class='class_jc'>
-      <navigator url='../class_join/class_join'>
-        <button class='class_act'>加</button>
-      </navigator>
-      <navigator url='../class_create/class_create'>
-        <button class='class_act' >创</button>
-      </navigator>
-      <navigator url='../login/login'>
-        <button class='class_act'>我</button>
-      </navigator>
+      <image bindtap='actionSheetTap' src='../../image/class_list/list.png'></image>
+      <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+      <block>
+        <navigator url = '../class_join/class_join'><action-sheet-item class="item" bingtap="bindjoin">加入班级</action-sheet-item></navigator>
+        <navigator url = '../class_create/class_create'><action-sheet-item class="item" bingtap="bindcreate">创建班级</action-sheet-item></navigator>
+      </block>
+        <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+      </action-sheet>
     </view>
   </view>
   <view class = 'page_body'>
-    <view class = 'class_block'>
-      <view class='class_name'>班级名称</view>
-      <view class='class_msg'>班级信息</view>
+    <view wx:for="{{class_data}}" class = 'class_block'>
+      <view class='class_name'>{{item.name}}</view>
+      <view class='class_msg'>教师：{{item.teacher}}  班级人数：{{item.student_numbers}}  队伍数量：{{item.team_numbers}}</view>
       <view class='class_button'>
-        <button class='cbutton'>加入班级</button>
-        <button class='cbutton'>查看详情</button>
+        <image src='../../image/class_list/join.png' class='join_button' url='../team_list/team_list'></image>
+        <navigator url='../team_list/team_list'><image src='../../image/class_list/more.png' class='more_button'></image></navigator>
       </view>
     </view>
-    <view class = 'class_block'>
-      <view class='class_name'>班级名称</view>
-      <view class='class_msg'>班级信息</view>
-      <view class='class_button'>
-        <button class='cbutton'>加入班级</button>
-        <button class='cbutton'>查看详情</button>
-      </view>
-    </view>
-    <view class = 'class_block'>
-      <view class='class_name'>班级名称</view>
-      <view class='class_msg'>班级信息</view>
-      <view class='class_button'>
-        <button class='cbutton'>加入班级</button>
-        <button class='cbutton'>查看详情</button>
-      </view>
-    </view>
+    
+
   </view>
 </view>

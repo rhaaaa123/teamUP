@@ -17,6 +17,7 @@
         <view class="clear"></view>
       </view>
       <view class="confirm">
+
         <navigator url="../team_list/team_list">
           <button class="confirm_button" form-type="submit">GO</button>
         </navigator>

@@ -4,6 +4,7 @@
     <image src="../../image/my/photo.png"/>
   </view>
   <view class="info">
+
     <text>姓名：</text><text class="name">{{user.name}}</text>
   </view>
   <view class="info">
@@ -14,4 +15,5 @@
       <image src="../../image/my/set.jpg"/>
     </view>
   </navigator>
+
 </view>

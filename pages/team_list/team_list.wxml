@@ -1,4 +1,5 @@
 <!--pages/team_list/team_list.wxml-->
+
 <view class="head">
   <view class="class_name">
     <text>VC693：面向对象程序设计</text>
@@ -42,3 +43,4 @@
   </navigator>
   
 </view>
+

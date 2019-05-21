@@ -3,6 +3,7 @@
   padding: 30rpx;
   display: flex;
   justify-content: space-between;
+
 }
 .page_title_class{
   border: 2px solid #ccc;
@@ -12,13 +13,7 @@
   padding: 10rpx 20rpx;
   color: #333;
   font-size: 32rpx;
-  display: flex;
-}
-.page_body{
-  background-color: #fff;
-}
-.page_body{
- 
+
 }
 .user_img{
   border-width:0rpx;
@@ -37,13 +32,15 @@
   border-radius: 100%;
   left:25rpx;
   top:82rpx;
-  width: 50rpx;
-  height:50rpx;
+
+  width: 80rpx;
+  height:80rpx;
   margin: 2rpx;
   padding: 2rpx;
   text-align: center;
-  font-size: 28rpx;
-  line-height: 50rpx;
+  font-size: 44rpx;
+  line-height: 80rpx;
+
   font-weight: bold;
   color:#f19d38
 }
@@ -53,6 +50,17 @@
   text-align:center;
   justify-content: space-between;
 }
+
+.class_jc image{
+  width:60rpx;
+  height:55rpx;
+  margin-top: 15rpx;
+  margin-right: 10rpx;
+}
+.c_text{
+  
+}
+
 .class_act{
   color: #f19d38;
   background-color: white;
@@ -67,29 +75,45 @@
 .user_name{
   color: #333;
   margin-left: 20rpx;
-  margin-top:15rpx; 
+
+  margin-top:11rpx; 
+
   font-weight: bold;
 }
 .user_id{
   color:#444;
   font-size: 30rpx;
-  margin-top:30rpx; 
+
+  margin-top:20rpx; 
   margin-left: 15rpx; 
 }
 .class_block{
-  border-width: 2rpx;
   background-color: white;
-  width:100%;
-  margin-top: 10rpx;
-  margin-bottom: 10rpx;
+  width:650rpx;
+  height:180rpx;
+  border-radius: 8rpx;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
   padding-left: 25rpx;
   padding-right: 25rpx;
-  padding-top: 5rpx;
-  padding-bottom: 5rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
 }
 .class_button{
   display: flex;
-  flex-direction: row;
+}
+.join_button{
+  width:70rpx;
+  height:55rpx;
+  margin-left: 500rpx;
+  top: 20rpx;
+}
+.more_button{
+  width:60rpx;
+  height:55rpx;
+  margin-left: 20rpx;
+
 }
 .cbutton{
   size:mini;
@@ -100,11 +124,13 @@
 .class_name{
   font-weight: bold;
   font-size: 40rpx;
-  margin: 2rpx;
+
+  margin: 5rpx;
   color: #333;
 }
 .class_msg{
-  margin: 4rpx;
+  margin: 5rpx;
   font-size: 28rpx;
   color: #444;
 }
+

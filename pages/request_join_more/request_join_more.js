@@ -1,13 +1,11 @@
-// pages/team_create/team_create.js
+// pages/request_join_more/request_join_more.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-    team: { id: 321, sup: 5, leader: "张一一", info: "在此可输入队伍名，队伍简介，队员要求等信息", single_list: ["张一一", "张二二", "张三三", "张五五", "张一一", "张二二", "张三三", "张五五", "张一一", "张二二"]}
-
+    apply_data: { cap: "队长", team_id: "002", member: ["aaa", "hhh"], time: "2019-05-20 13:14", me: "me", agree: true }
   },
 
   /**

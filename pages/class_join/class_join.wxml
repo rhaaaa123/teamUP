@@ -1,8 +1,11 @@
 <!--pages/class_join/class_join.wxml-->
 <view class= 'page_m'>
-  <text class='head'>请输入班级邀请码:</text>
+
+  <view class='head'>加入班级</view>
+  <view class='intro'>请输入6位班级邀请码</view>
   <view class ='in_su'>
-    <input placeholder="请输入4位邀请码" auto-focus class='join_input'/>
-    <button formType="submit" class='join_button'>join</button>
+    <text>邀请码</text><input placeholder="XXXXXX" auto-focus class='join_input'/>
+    <image src='../../image/finish.png' class='join_button'>join</image>
+
   </view>
 </view>

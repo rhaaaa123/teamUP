@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    invite_data: { cap: "队长", team_id: "002", member: ["aaa", "hhh"], time: "2019-05-20 13:14", me: "me", read: true }
   },
 
   /**
