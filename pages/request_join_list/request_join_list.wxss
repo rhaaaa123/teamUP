@@ -1,4 +1,4 @@
-/* pages/request_list/request_list.wxss */
+/* pages/request_join_list/request_join_lixt.wxss */
 .this_page{
 }
 .head{
@@ -6,7 +6,7 @@
   display: flex;
   margin-bottom: 30rpx;
 }
-.title_1{
+.title_2{
   background-color: #f19e3817;
   width:375rpx;
   height:80rpx;
@@ -17,7 +17,7 @@
   font-weight: bold;
   font-size: 30rpx;
 }
-.title_2{
+.title_1{
   background-color: white;
   width:375rpx;
   height:80rpx;

@@ -1,12 +1,11 @@
-// pages/request_list/request_list.js
+// pages/request_join_more/request_join_more.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    invite_data: [{ cap: "队长", team_id: "002", member: ["aaa", "hhh"], time: "2019-05-20 13:14", me: "me" ,read:true}, { cap: "队长2", team_id: "003", member: ["rrr", "hhh"], time: "2019-05-20 13:17", me: "gaga",read:false }, { cap: "队长4", team_id: "004", member: ["rrr", "hhh"], time: "2019-05-20 13:19", me: "gaaga" ,read:true}, { cap: "队长2", team_id: "003", member: ["rrr", "hhh"], time: "2019-05-20 13:17", me: "gaga" ,read:false}],
-    apply_data: [{ cap: "队长", team_id: "002", member: ["aaa", "hhh"], time: "2019-05-20 13:14", me: "me" }, { cap: "队长2", team_id: "003", member: ["rrr", "hhh"], time: "2019-05-20 13:17", me: "gaga" }]
+    apply_data: { cap: "队长", team_id: "002", member: ["aaa", "hhh"], time: "2019-05-20 13:14", me: "me", agree: true }
   },
 
   /**

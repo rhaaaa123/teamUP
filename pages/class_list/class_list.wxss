@@ -94,7 +94,7 @@
   padding-bottom: 20rpx;
 }
 .class_button{
-  
+  display: flex;
 }
 .join_button{
   width:70rpx;
