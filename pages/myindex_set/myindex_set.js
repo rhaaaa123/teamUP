@@ -1,13 +1,11 @@
-// pages/team_create/team_create.js
+// pages/myindex_set/myindex_set.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-    team: { id: 321, sup: 5, leader: "张一一", info: "在此可输入队伍名，队伍简介，队员要求等信息", single_list: ["张一一", "张二二", "张三三", "张五五", "张一一", "张二二", "张三三", "张五五", "张一一", "张二二"]}
-
+    user: { name: "张一一", id: "2016202239" }
   },
 
   /**

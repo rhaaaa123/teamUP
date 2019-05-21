@@ -13,7 +13,7 @@
   padding: 10rpx 20rpx;
   color: #333;
   font-size: 32rpx;
-   
+
 }
 .user_img{
   border-width:0rpx;
@@ -32,6 +32,7 @@
   border-radius: 100%;
   left:25rpx;
   top:82rpx;
+
   width: 80rpx;
   height:80rpx;
   margin: 2rpx;
@@ -39,6 +40,7 @@
   text-align: center;
   font-size: 44rpx;
   line-height: 80rpx;
+
   font-weight: bold;
   color:#f19d38
 }
@@ -48,6 +50,7 @@
   text-align:center;
   justify-content: space-between;
 }
+
 .class_jc image{
   width:60rpx;
   height:55rpx;
@@ -57,6 +60,7 @@
 .c_text{
   
 }
+
 .class_act{
   color: #f19d38;
   background-color: white;
@@ -71,12 +75,15 @@
 .user_name{
   color: #333;
   margin-left: 20rpx;
+
   margin-top:11rpx; 
+
   font-weight: bold;
 }
 .user_id{
   color:#444;
   font-size: 30rpx;
+
   margin-top:20rpx; 
   margin-left: 15rpx; 
 }
@@ -106,6 +113,7 @@
   width:60rpx;
   height:55rpx;
   margin-left: 20rpx;
+
 }
 .cbutton{
   size:mini;
@@ -116,6 +124,7 @@
 .class_name{
   font-weight: bold;
   font-size: 40rpx;
+
   margin: 5rpx;
   color: #333;
 }
@@ -124,3 +133,4 @@
   font-size: 28rpx;
   color: #444;
 }
+

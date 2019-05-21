@@ -1,13 +1,14 @@
 <!--pages/class_list/class_list.wxml-->
 <view class='page'>
   <view class='page_hd'>
-    
+
     <view class='user_msg'>
       <view class='user_circle'>
         <view class = 'user_text'>
           <text>{{user.fname}}</text>
         </view>
       </view>
+
       <view class = 'c-text'>
         <view class='user_name'>{{user.name}}</view>
         <view class='user_id'>学号：{{user.id}}</view>
@@ -34,5 +35,6 @@
       </view>
     </view>
     
+
   </view>
 </view>
