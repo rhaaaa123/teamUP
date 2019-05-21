@@ -90,15 +90,16 @@
 .class_block{
   background-color: white;
   width:650rpx;
-  height:180rpx;
-  border-radius: 8rpx;
+  height:164rpx;
+  border-radius: 12rpx;
   margin-left: 30rpx;
   margin-top: 20rpx;
   margin-bottom: 20rpx;
   padding-left: 25rpx;
   padding-right: 25rpx;
   padding-top: 20rpx;
-  padding-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  border-bottom:#f19d38 double 16rpx;
 }
 .class_button{
   display: flex;
