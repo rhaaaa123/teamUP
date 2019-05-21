@@ -1,3 +1,4 @@
+/* pages/myindex_set/myindex_set.wxss */
 /* pages/myindex/myindex.wxss */
 .center{
   background-color: #FFFFFF;
@@ -25,14 +26,27 @@
   margin-top: 30rpx;
 }
 
+.info text{
+  float: left;
+}
+
+.info input{
+  width: 300rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+
 .set{
-  margin-left: 540rpx;
+  margin-left: 450rpx;
   margin-top: 100rpx;
   width: 100rpx;
   height: 100rpx;
 }
 
-.set image{
-  width: 80rpx;
-  height: 80rpx;
+.set button{
+  width: 180rpx;
+  height: 70rpx;
+  background-color: #f19d38;
+  font-size: 30rpx; 
+  line-height: 70rpx;
 }

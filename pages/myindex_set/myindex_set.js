@@ -1,11 +1,11 @@
-// pages/team_more/team_more.js
+// pages/myindex_set/myindex_set.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    team: { id: 321, count: 3, sup: 5, leader: "张一一", info: "这是一个神秘的队伍这是一个神秘的队伍这是一个神秘的队伍这是一个神秘的队伍这是一个神秘的队伍", member: ["张一一","张二二","张三三"]}
+    user: { name: "张一一", id: "2016202239" }
   },
 
   /**

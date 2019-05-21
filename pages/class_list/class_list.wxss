@@ -1,1 +1,110 @@
 /* pages/class_list/class_list.wxss */
+.page_hd{
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.page_title_class{
+  border: 2px solid #ccc;
+
+}
+.page_title_cn{
+  padding: 10rpx 20rpx;
+  color: #333;
+  font-size: 32rpx;
+  display: flex;
+}
+.page_body{
+  background-color: #fff;
+}
+.page_body{
+ 
+}
+.user_img{
+  border-width:0rpx;
+  
+  left: 0rpx;
+  top:0rpx;
+  width:28rpx;
+  height:28rpx;
+}
+.user_msg{
+  display: flex;
+}
+.user_circle{
+  border-width: 2rpx;
+  background-color: white;
+  border-radius: 100%;
+  left:25rpx;
+  top:82rpx;
+  width: 50rpx;
+  height:50rpx;
+  margin: 2rpx;
+  padding: 2rpx;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+  color:#f19d38
+}
+.class_jc{
+  display: flex;
+  margin-top:6rpx; 
+  text-align:center;
+  justify-content: space-between;
+}
+.class_act{
+  color: #f19d38;
+  background-color: white;
+  text-align:center;
+  font-size: 32rpx;
+  margin: 5rpx;
+  padding-top: 5rpx;
+  padding-left: 5rpx;
+  padding-right: 5rpx;
+  
+}
+.user_name{
+  color: #333;
+  margin-left: 20rpx;
+  margin-top:15rpx; 
+  font-weight: bold;
+}
+.user_id{
+  color:#444;
+  font-size: 30rpx;
+  margin-top:30rpx; 
+  margin-left: 15rpx; 
+}
+.class_block{
+  border-width: 2rpx;
+  background-color: white;
+  width:100%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+}
+.class_button{
+  display: flex;
+  flex-direction: row;
+}
+.cbutton{
+  size:mini;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.class_name{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin: 2rpx;
+  color: #333;
+}
+.class_msg{
+  margin: 4rpx;
+  font-size: 28rpx;
+  color: #444;
+}
