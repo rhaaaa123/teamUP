@@ -10,6 +10,13 @@ Page({
 
   },
 
+  formSubmit: function (e) {
+    var id = this.data.team.id;
+    var sup = this.data.team.sup;
+    var leader = e.detail.value.leader;
+    var info = e.detail.value.info;
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */

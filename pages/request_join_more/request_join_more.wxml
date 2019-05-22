@@ -15,8 +15,8 @@
     </view>
   </view>
   <view class='choise'>
-    <button class='c_button'>了解啦</button>
-    
+   <button class='c_button'>了解啦</button>
+
   </view>
 </view>
 

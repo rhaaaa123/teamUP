@@ -60,6 +60,12 @@
   height:60rpx;
 
 }
+.crea_button{
+  margin-top: 10rpx;
+  margin-left: 590rpx;
+  width:68rpx;
+  height:60rpx;
+}
 .join_input_2{
   background-color: white;
   border:1rpx #aaa solid;

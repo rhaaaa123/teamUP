@@ -1,11 +1,30 @@
 // pages/class_create/class_create.js
+var status = true;
 Page({
+  
+  formSubmit: function (e) {
+    
+    var name = e.detail.value.name;
 
+    var teacher = e.detail.value.teacher;
+    var student_numbers = e.detail.value.student_numbers;
+    var intoduction=e.detail.value.introduction;
+  },
   /**
    * 页面的初始数据
    */
+  toastShow: function (event) {
+    console.log("触发了点击事件，弹出toast")
+    status = false
+    this.setData({ status: status })　　　　//setData方法可以建立新的data属性，从而起到跟视图实时同步的效果
+  },
+  toastHide: function (event) {
+    console.log("触发bindchange，隐藏toast")
+    status = true
+    this.setData({ status: status })
+  },
   data: {
-
+    status:status
   },
 
   /**
@@ -63,4 +82,5 @@ Page({
   onShareAppMessage: function () {
 
   }
+  
 })

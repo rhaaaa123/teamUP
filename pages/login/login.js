@@ -6,11 +6,17 @@ Page({
    */
   data: {
 
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
+  formSubmit: function (e) {
+
+    var name = e.detail.value.name; 
+    var stu_num = e.detail.value.stu_num;
+  },
   onLoad: function (options) {
 
   },
