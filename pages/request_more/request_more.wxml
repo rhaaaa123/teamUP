@@ -15,8 +15,11 @@
     </view>
   </view>
   <view class='choise'>
-    <button class='c_button' bindtap='agree' >欣然同意</button>
-    <button class='c_button' bindtap='refuse'>残忍拒绝</button>
-    <button class='c_button' bindtap='cancel'>观望观望</button>
+   <navigator url = '../request_list/request_list' open-type='navigateBack'>
+        <button class='c_button' bindtap='agree' >欣然同意</button>
+        <button class='c_button' bindtap='refuse'>残忍拒绝</button>
+        <button class='c_button' bindtap='cancel'>观望观望</button>
+    </navigator>
+    
   </view>
 </view>

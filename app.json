@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/team_create/team_create",
     "pages/class_list/class_list",
     "pages/myindex/myindex",
     "pages/request_list/request_list",
@@ -16,7 +17,7 @@
     "pages/request_more/request_more",
     "pages/request_join_more/request_join_more",
     
-    "pages/team_create/team_create",
+   
     "pages/team_list/team_list",
     "pages/team_more/team_more"
   ],
