@@ -26,7 +26,6 @@
 .head{
   margin: 20rpx;
   font-size: 40rpx;
-
   padding-top: 50rpx;
   padding-left: 10rpx;
   font-weight: bold;
