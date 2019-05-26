@@ -7,13 +7,13 @@
     <view class="welcome">
       <text>欢迎加入班级！初次见面，怎么称呼？</text>
     </view>
-    <form>
+    <form bindsubmit="formSubmit">
       <view class="input_info">
-        <text>姓名</text><input/>
+        <text>姓名</text><input name="name"/>
         <view class="clear"></view>
       </view>
       <view class="input_info">
-        <text>学号</text><input/>
+        <text>学号</text><input name="stu_num"/>
         <view class="clear"></view>
       </view>
       <view class="confirm">

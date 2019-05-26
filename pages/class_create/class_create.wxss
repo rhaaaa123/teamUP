@@ -2,7 +2,7 @@
 /* pages/class_join/class_join.wxss */
 .join_input{
   background-color: white;
-  border:1rpx #f19d38 solid;
+  border:1rpx #aaa solid;
   margin-left: 10rpx;
   margin-right: 10rpx;
   margin-top: 10rpx;
@@ -26,7 +26,6 @@
 .head{
   margin: 20rpx;
   font-size: 40rpx;
-
   padding-top: 50rpx;
   padding-left: 10rpx;
   font-weight: bold;
@@ -44,12 +43,11 @@
 }
 .page_m{
   background-color: white;
-  margin-top:180rpx;
-  height: 820rpx;
+  margin-top:200rpx;
+  height: 800rpx;
   width:680rpx;
   margin-left:35rpx;
   border-radius: 10rpx;
-  border-top:#f19d38 double 40rpx;
 }
 .in_su{
  
@@ -61,9 +59,15 @@
   height:60rpx;
 
 }
+.crea_button{
+  margin-top: 10rpx;
+  margin-left: 590rpx;
+  width:68rpx;
+  height:60rpx;
+}
 .join_input_2{
   background-color: white;
-  border:1rpx #f19d38 solid;
+  border:1rpx #aaa solid;
   margin-left:5rpx;
   margin-right: 5rpx;
   margin-top: 10rpx;
@@ -92,7 +96,7 @@
 }
 .join_input_3{
   background-color: white;
-  border:1rpx #f19d38 solid;
+  border:1rpx #aaa solid;
   margin-left:30rpx;
   margin-right: 10rpx;
   margin-top: 20rpx;
@@ -100,5 +104,4 @@
   width:620rpx;
   height: 240rpx;
   border-radius: 5rpx;
-
 }

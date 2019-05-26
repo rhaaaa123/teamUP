@@ -6,8 +6,11 @@ Page({
    */
   data: {
 
-  },
+  },  
 
+  invite_code_confirm:function(e){
+    var invite_code=e.detail.value;
+  },
   /**
    * 生命周期函数--监听页面加载
    */

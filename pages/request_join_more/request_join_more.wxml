@@ -15,8 +15,9 @@
     </view>
   </view>
   <view class='choise'>
-    <button class='c_button'>了解啦</button>
-    
+    <navigator url = '../request_join_list/request_join_list' open-type='navigateBack'><button class='c_button'>了解啦</button></navigator>
+   
+
   </view>
 </view>
 

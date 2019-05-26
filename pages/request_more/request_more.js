@@ -1,4 +1,5 @@
 // pages/request_more/request_more.js
+var ifagree=0;//0表示拒绝，1表示同意，2表示取消
 Page({
 
   /**
@@ -6,6 +7,15 @@ Page({
    */
   data: {
     invite_data: { cap: "队长", team_id: "002", member: ["aaa", "hhh"], time: "2019-05-20 13:14", me: "me", read: true }
+  },
+  cancel:function(e){
+    ifagree=2;
+  },
+  refuse:function(e){
+    ifagree=0;
+  },
+  agree:function(e){
+    ifagree=1;
   },
 
   /**

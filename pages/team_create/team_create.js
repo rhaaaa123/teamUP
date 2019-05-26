@@ -10,6 +10,30 @@ Page({
 
   },
 
+
+  // 获取多选框list中选中的值和对应的name
+
+  checkboxChange: function (e) {
+
+    var name = [];
+
+    for (var i = 0; i < e.detail.value.length; i++) {
+
+      var aaa = e.detail.value[i].split(',');
+
+     name = name.concat(aaa[0])
+
+    }
+
+  },
+
+  formSubmit: function (e) {
+    var id = this.data.team.id;
+    var sup = this.data.team.sup;
+    var leader = e.detail.value.leader;
+    var info = e.detail.value.info;
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */

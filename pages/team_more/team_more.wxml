@@ -26,7 +26,10 @@
       </view>
       <view class="clear"></view>
     </view>
-    <button class="join">加入</button>
+    <button class="join" bindtap="toastShow">加入</button>
+    <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+        已发送申请
+    </toast>
   </view>
 </view>
 

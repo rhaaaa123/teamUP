@@ -169,7 +169,11 @@ page{
   top:0rpx;
   display: none;
 }
-
+.checkbox{
+    display:block;
+    margin-left:10px;
+    margin-top:5px;
+}
 .invitor{
   display: block;
 }
