@@ -5,7 +5,7 @@
   <view class='intro'>请输入6位班级邀请码</view>
   <view class ='in_su'>
     <text>邀请码</text><input bindconfirm="invite_code_confirm" placeholder="XXXXXX" auto-focus class='join_input'/>
-    
+  <image src='../../image/finish.png' class='join_button'>join</image>  
 
   </view>
 </view>

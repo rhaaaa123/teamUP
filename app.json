@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/team_create/team_create",
     "pages/class_list/class_list",
     "pages/myindex/myindex",
     "pages/request_list/request_list",
     "pages/request_join_list/request_join_list",
-    
+    "pages/team_create/team_create",
     "pages/index/index",
     "pages/login/login",
     "pages/class_create/class_create",

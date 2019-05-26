@@ -34,23 +34,24 @@
     <view class="clear"></view>
     <view class="more">
       <text>更多信息：</text>
-      <input name="info" class="info" placeholder="{{team.info}}"/>
+      <textarea name="info" class="info" placeholder="{{team.info}}"/>
     </view>
     <view class="invite">
       <text class="title">邀请成员</text>
-      
-      <checkbox-group bindchange="checkboxChange">
 
-        <label  class="checkbox" wx:for="{{team.single_list}}" wx:for_item="single_name">
-
-          <checkbox value='{{item}}'/>
-          {{item}}
-
-        </label>
-
-      </checkbox-group>
-
-     
+      <view class="single_list">
+        <checkbox-group bindchange="checkboxChange">
+          <label  class="checkbox" wx:for="{{team.single_list}}" wx:for_item="single_name">
+            <view>
+              <image src="../../image/head_images/1.jpg"/>
+            </view>
+            <view class="mask"></view>
+            <text>{{single_name}}</text>
+            <checkbox value='{{item}}'/>
+            {{item}}
+          </label>
+        </checkbox-group>
+      </view>
       <view class="clear"></view>
       <button formType="submit" class="commit">发布</button>
     </view>

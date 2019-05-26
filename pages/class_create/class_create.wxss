@@ -43,11 +43,12 @@
 }
 .page_m{
   background-color: white;
-  margin-top:200rpx;
-  height: 800rpx;
+  margin-top:180rpx;
+  height: 820rpx;
   width:680rpx;
   margin-left:35rpx;
   border-radius: 10rpx;
+  border-top:#f19d38 double 40rpx;
 }
 .in_su{
  

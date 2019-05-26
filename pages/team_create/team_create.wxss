@@ -138,7 +138,7 @@ page{
   width: 710rpx;
 }
 
-.single{
+.checkbox{
   margin-left: 35rpx;
   margin-top: 20rpx;
   color: #696969;
@@ -150,11 +150,7 @@ page{
   position: relative;
 }
 
-.first{
-  margin-left: 25rpx;
-}
-
-.single image{
+.checkbox image{
   height: 100rpx;
   width: 100rpx;
   border-radius: 6rpx;
