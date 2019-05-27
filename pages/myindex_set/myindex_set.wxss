@@ -7,6 +7,7 @@
   margin-left: 50rpx;
   margin-top: 150rpx;
   border-radius: 8rpx;
+  border-top: #f19d38 double 26rpx;
 }
 
 .head_image image{

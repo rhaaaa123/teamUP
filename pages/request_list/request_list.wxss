@@ -71,7 +71,7 @@
   font-size: 29rpx;
   color: #888;
   position: absolute;
-  right:80rpx;
+  right:10rpx;
   bottom: 10rpx;
 }
 .invite_head{

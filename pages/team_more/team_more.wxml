@@ -26,7 +26,7 @@
       </view>
       <view class="clear"></view>
     </view>
-    <button class="join">加入</button>
+    <button class="join" bindtap='join_team'>加入</button>
   </view>
 </view>
 

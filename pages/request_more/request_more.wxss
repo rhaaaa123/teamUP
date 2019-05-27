@@ -11,7 +11,7 @@
 .invite_member{
   font-size: 32rpx;
   color: #666;
-  margin: 10rpx;
+  margin-top: 10rpx;
   margin-right: 40rpx;
 }
 .member_text{
@@ -20,7 +20,7 @@
 .invite_time{
   font-size: 29rpx;
   color: #888;
-  margin-left: 300rpx;
+  margin-left: 360rpx;
 }
 .choise{
   margin-top: 60rpx;
@@ -28,10 +28,11 @@
 }
 .c_button{
   color:#f19d38;
-  margin-left:24rpx;
+  margin-left:40rpx;
   width: 200rpx;
   font-size: 34rpx;
   font-weight: bold;
+  float: left;
 }
 .title{
   color: #333;

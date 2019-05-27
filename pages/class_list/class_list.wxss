@@ -57,9 +57,6 @@
   margin-top: 15rpx;
   margin-right: 10rpx;
 }
-.c_text{
-  
-}
 
 .class_act{
   color: #f19d38;
@@ -101,16 +98,11 @@
   padding-bottom: 10rpx;
   border-bottom:#f19d38 double 16rpx;
   position: relative;
-}
+  }
 .class_button{
   display: flex;
 }
-.join_button{
-  width:70rpx;
-  height:55rpx;
-  
-  top: 20rpx;
-}
+
 .more_button{
   width:60rpx;
   height:55rpx;
@@ -136,4 +128,3 @@
   font-size: 28rpx;
   color: #444;
 }
-

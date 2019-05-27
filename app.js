@@ -1,5 +1,13 @@
 //app.js
 App({
+  globalData:{
+    last_class_id: 2,  //数据库中最后一个班的id
+    team_id: 1,
+    student_id: 1,
+    apply_msg_id: 1,
+    invite_msg_id: 1
+  },
+
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -32,8 +40,5 @@ App({
         }
       }
     })
-  },
-  globalData: {
-    userInfo: null
   }
 })
